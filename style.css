@@ -41,3 +41,11 @@ ul{
     gap: 8px;
     border: 2px solid rgb(65, 253, 18);
 }
+
+.content{
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
