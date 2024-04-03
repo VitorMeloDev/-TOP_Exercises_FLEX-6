@@ -25,3 +25,19 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header{
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    border: 2px solid rgb(65, 253, 18);
+}
