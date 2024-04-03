@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -12,10 +14,10 @@ img {
 }
 
 button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
 }
 
 input {
@@ -26,11 +28,15 @@ input {
   margin-bottom: 16px;
 }
 
-.header{
+.header, .footer{
     border: 2px solid purple;
     display: flex;
     justify-content: space-between;
     padding: 8px;
+}
+
+.footer{
+    background-color: gainsboro;
 }
 
 ul{
@@ -45,6 +51,7 @@ ul{
 .content{
     border: 2px solid orange;
     display: flex;
+    flex:1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
